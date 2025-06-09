@@ -1,0 +1,6 @@
+x=[2,4,6,8,10]
+y=[20,50,60,27,80]
+plt.plot(x,y,color='red',marker='o')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Line Plot')

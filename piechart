@@ -1,0 +1,10 @@
+fig, ax = plt.subplots(figsize=(6, 6))
+
+x = [10, 20, 30, 40]
+labels=[' English','Math','Science','Social Studies']
+
+ax.pie(x, labels=labels, autopct='%.1f%%',
+       wedgeprops={'linewidth': 3.0, 'edgecolor': 'w'},
+       textprops={'size': 'x-large'})
+ax.set_title('Subjects', fontsize=18)
+plt.tight_layout()

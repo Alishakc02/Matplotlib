@@ -1,0 +1,8 @@
+#Scatterplot
+x=np.random.rand(100)
+y=np.random.rand(100)
+plt.scatter(x,y,color='red',alpha=0.3)
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Scatter Plot')
+plt.show()
